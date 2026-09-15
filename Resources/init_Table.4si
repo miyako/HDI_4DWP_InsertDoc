@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings-import-export table_no="3" format="4D" file_path="Macintosh HD:Users:miyako:.copilot:repos:HDI_4DWP_InsertDoc:Resources:init_Table-en.4ie" char_display_format="decimal" platform="automatic" all_records="true" table_name="init_Table">
+	<field table_no="3" field_no="1" name="ID" kind="int32"/>
+	<field table_no="3" field_no="4" name="SampleSort" kind="int32"/>
+	<field table_no="3" field_no="3" name="Text" kind="object"/>
+	<field table_no="3" field_no="2" name="Title" kind="text"/>
+	<xml_settings export_xsl_mode="none"/>
+	<text_settings/>
+</settings-import-export>

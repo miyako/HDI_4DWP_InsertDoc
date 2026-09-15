@@ -1,6 +1,6 @@
-//%attributes = {}
-C_LONGINT:C283($vTotalPage; $vStartRange; $vEndRange; $vStartRangeTempo; $vCharTotal; $vEndRangeTempo; $vCharSelected)
-C_OBJECT:C1216($wpRange; $wpRangeTempo)
+//%attributes = {"invisible":true}
+var $vTotalPage; $vStartRange; $vEndRange; $vStartRangeTempo; $vCharTotal; $vEndRangeTempo; $vCharSelected : Integer
+var $wpRange; $wpRangeTempo : Object
 
 If (OB Is defined:C1231(wpDoc1))
 	$vTotalPage:=WP Get page count:C1412(wpDoc1)
@@ -24,6 +24,6 @@ If (OB Is defined:C1231(wpDoc1))
 		
 		$vCharSelected:=$vEndRange-$vStartRange
 		
-		vDocumentBottomText:="Number of pages: "+Char:C90(Tab:K15:37)+Char:C90(Tab:K15:37)+String:C10($vTotalPage)+"."+Char:C90(Carriage return:K15:38)+"Number of characters: "+Char:C90(Tab:K15:37)+String:C10($vCharSelected)+Char:C90(Tab:K15:37)+"/ "+String:C10($vCharTotal)
+		vDocumentBottomText:=Localized string("MsgNumberOfPages")+Char:C90(Tab:K15:37)+Char:C90(Tab:K15:37)+String:C10($vTotalPage)+"."+Char:C90(Carriage return:K15:38)+Localized string("MsgNumberOfCharacters")+Char:C90(Tab:K15:37)+String:C10($vCharSelected)+Char:C90(Tab:K15:37)+"/ "+String:C10($vCharTotal)
 	End if 
 End if 

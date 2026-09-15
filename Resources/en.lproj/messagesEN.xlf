@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/Methods" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="MsgNumberOfPages" resname="MsgNumberOfPages">
+				<source>Number of pages:</source>
+				<target>Number of pages:</target>
+			</trans-unit>
+			<trans-unit id="MsgNumberOfCharacters" resname="MsgNumberOfCharacters">
+				<source>Number of characters:</source>
+				<target>Number of characters:</target>
+			</trans-unit>
+			<trans-unit id="AlertPageCountPlural" resname="AlertPageCountPlural">
+				<source>There are {count} pages in your document.</source>
+				<target>There are {count} pages in your document.</target>
+			</trans-unit>
+			<trans-unit id="AlertPageCountSingular" resname="AlertPageCountSingular">
+				<source>There is only {count} page in your document.</source>
+				<target>There is only {count} page in your document.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

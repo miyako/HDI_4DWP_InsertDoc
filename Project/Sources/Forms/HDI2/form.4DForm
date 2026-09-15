@@ -124,10 +124,10 @@
 					"top": 186,
 					"left": 750,
 					"width": 150,
-					"height": 19,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Create document",
+					"class": "default",
+					"text": ":xliff:HDI2_Button1Text",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
@@ -168,7 +168,7 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"fontWeight": "bold",
-					"text": "Document creation from a range"
+					"text": ":xliff:HDI2_Text2"
 				},
 				"WriteProArea3": {
 					"type": "write",
@@ -203,7 +203,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Document created:"
+					"text": ":xliff:HDI2_TextDocCreated"
 				},
 				"Picture3": {
 					"type": "picture",
@@ -284,7 +284,7 @@
 					"width": 350,
 					"height": 205,
 					"sizingX": "move",
-					"text": "Common parameters"
+					"text": ":xliff:HDI2_CommonParameters"
 				},
 				"Radio Button": {
 					"type": "radio",
@@ -294,7 +294,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "bReplace",
-					"text": "Replace",
+					"text": ":xliff:HDI2_Replace",
 					"focusable": false,
 					"radioGroup": "Group4",
 					"events": [
@@ -309,7 +309,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "bPrepend",
-					"text": "Prepend",
+					"text": ":xliff:HDI2_Prepend",
 					"focusable": false,
 					"radioGroup": "Group4",
 					"events": [
@@ -324,7 +324,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "bAppend",
-					"text": "Append",
+					"text": ":xliff:HDI2_Append",
 					"focusable": false,
 					"radioGroup": "Group4",
 					"events": [
@@ -339,7 +339,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "bInclude",
-					"text": "Include in next range",
+					"text": ":xliff:HDI2_Include",
 					"focusable": false,
 					"radioGroup": "Group1",
 					"events": [
@@ -354,7 +354,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "bExclude",
-					"text": "Exclude from next range",
+					"text": ":xliff:HDI2_Exclude",
 					"focusable": false,
 					"radioGroup": "Group1",
 					"events": [
@@ -369,7 +369,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"fontWeight": "bold",
-					"text": "Insertion mode"
+					"text": ":xliff:HDI2_InsertionMode"
 				},
 				"Text6": {
 					"type": "text",
@@ -379,16 +379,16 @@
 					"height": 17,
 					"sizingX": "move",
 					"fontWeight": "bold",
-					"text": "Range extension"
+					"text": ":xliff:HDI2_RangeExtension"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 364,
 					"left": 750,
 					"width": 150,
-					"height": 19,
 					"sizingX": "move",
-					"text": "Insert a document",
+					"class": "default",
+					"text": ":xliff:HDI2_InsertDocument",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
@@ -435,9 +435,9 @@
 					"top": 746,
 					"left": 343,
 					"width": 150,
-					"height": 17,
 					"sizingX": "move",
-					"text": "Next document >",
+					"class": "default",
+					"text": ":xliff:HDI2_NextDocument",
 					"focusable": false,
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
@@ -449,9 +449,9 @@
 					"top": 746,
 					"left": 172,
 					"width": 150,
-					"height": 17,
 					"sizingX": "move",
-					"text": "< Previous document",
+					"class": "default",
+					"text": ":xliff:HDI2_PrevDocument",
 					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
@@ -529,7 +529,7 @@
 					"height": 30,
 					"sizingX": "move",
 					"dataSource": "sectionBreak",
-					"text": "Section break",
+					"text": ":xliff:HDI2_SectionBreak",
 					"focusable": false,
 					"radioGroup": "Group3",
 					"events": [
@@ -544,7 +544,7 @@
 					"height": 30,
 					"sizingX": "move",
 					"dataSource": "pageBreak",
-					"text": "Page break",
+					"text": ":xliff:HDI2_PageBreak",
 					"focusable": false,
 					"radioGroup": "Group3",
 					"events": [
@@ -559,7 +559,7 @@
 					"height": 30,
 					"sizingX": "move",
 					"dataSource": "lineBreak",
-					"text": "Line break",
+					"text": ":xliff:HDI2_LineBreak",
 					"focusable": false,
 					"radioGroup": "Group3",
 					"events": [
@@ -571,9 +571,9 @@
 					"top": 381,
 					"left": 830,
 					"width": 150,
-					"height": 19,
 					"sizingX": "move",
-					"text": "Insert break",
+					"class": "default",
+					"text": ":xliff:HDI2_InsertBreak",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
@@ -588,7 +588,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"fontWeight": "bold",
-					"text": "Break type"
+					"text": ":xliff:HDI2_BreakType"
 				},
 				"Picture1": {
 					"type": "picture",
@@ -632,7 +632,7 @@
 					"width": 350,
 					"height": 205,
 					"sizingX": "move",
-					"text": "Common parameters"
+					"text": ":xliff:HDI2_CommonParameters"
 				},
 				"Radio Button8": {
 					"type": "radio",
@@ -642,7 +642,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "bReplace",
-					"text": "Replace",
+					"text": ":xliff:HDI2_Replace",
 					"focusable": false,
 					"radioGroup": "Group2",
 					"events": [
@@ -657,7 +657,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "bPrepend",
-					"text": "Prepend",
+					"text": ":xliff:HDI2_Prepend",
 					"focusable": false,
 					"radioGroup": "Group2",
 					"events": [
@@ -672,7 +672,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "bAppend",
-					"text": "Append",
+					"text": ":xliff:HDI2_Append",
 					"focusable": false,
 					"radioGroup": "Group2",
 					"events": [
@@ -687,7 +687,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "bInclude",
-					"text": "Include in next range",
+					"text": ":xliff:HDI2_Include",
 					"focusable": false,
 					"radioGroup": "Group5",
 					"events": [
@@ -702,7 +702,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "bExclude",
-					"text": "Exclude from next range",
+					"text": ":xliff:HDI2_Exclude",
 					"focusable": false,
 					"radioGroup": "Group5",
 					"events": [
@@ -717,7 +717,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"fontWeight": "bold",
-					"text": "Insertion mode"
+					"text": ":xliff:HDI2_InsertionMode"
 				},
 				"Text4": {
 					"type": "text",
@@ -727,7 +727,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"fontWeight": "bold",
-					"text": "Range extension"
+					"text": ":xliff:HDI2_RangeExtension"
 				},
 				"WriteProArea5": {
 					"type": "write",
@@ -838,9 +838,9 @@
 					"top": 204,
 					"left": 750,
 					"width": 150,
-					"height": 19,
 					"sizingX": "move",
-					"text": "Get page count",
+					"class": "default",
+					"text": ":xliff:HDI2_GetPageCount",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
@@ -852,29 +852,34 @@
 	],
 	"editor": {
 		"groups": {
-			"Group4": [
-				"Radio Button",
-				"Radio Button5",
-				"Radio Button4"
-			],
 			"Group1": [
 				"Radio Button6",
 				"Radio Button7"
-			],
-			"Group3": [
-				"Radio Button1",
-				"Radio Button2",
-				"Radio Button3"
 			],
 			"Group2": [
 				"Radio Button8",
 				"Radio Button9",
 				"Radio Button10"
 			],
+			"Group3": [
+				"Radio Button1",
+				"Radio Button2",
+				"Radio Button3"
+			],
+			"Group4": [
+				"Radio Button",
+				"Radio Button5",
+				"Radio Button4"
+			],
 			"Group5": [
 				"Radio Button11",
 				"Radio Button12"
 			]
 		}
+	},
+	"colorScheme": "light",
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

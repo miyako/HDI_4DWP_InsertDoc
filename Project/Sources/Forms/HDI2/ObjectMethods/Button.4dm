@@ -1,12 +1,13 @@
-C_OBJECT:C1216($wpRange)
+//%attributes = {"invisible":true}
+var $wpRange : Object
 //get the range from the user selection
 $wpRange:=WP Selection range:C1340(wpDoc1)
 
 
-C_LONGINT:C283($mode; $extensionRange)
+var $mode; $extensionRange : Integer
 //define the mode according radio button 
 
-C_LONGINT:C283($break)
+var $break : Integer
 
 Case of 
 	: (lineBreak=1)

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI2_Button1Text" resname="HDI2_Button1Text">
+				<source>Create document</source>
+				<target>&#12489;&#12461;&#12517;&#12513;&#12531;&#12488;&#12434;&#20316;&#25104;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Text2" resname="HDI2_Text2">
+				<source>Document creation from a range</source>
+				<target>&#31684;&#22258;&#12363;&#12425;&#12398;&#12489;&#12461;&#12517;&#12513;&#12531;&#12488;&#20316;&#25104;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TextDocCreated" resname="HDI2_TextDocCreated">
+				<source>Document created:</source>
+				<target>&#20316;&#25104;&#12373;&#12428;&#12383;&#12489;&#12461;&#12517;&#12513;&#12531;&#12488;:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CommonParameters" resname="HDI2_CommonParameters">
+				<source>Common parameters</source>
+				<target>&#20849;&#36890;&#12497;&#12521;&#12513;&#12540;&#12479;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Replace" resname="HDI2_Replace">
+				<source>Replace</source>
+				<target>&#32622;&#25563;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Prepend" resname="HDI2_Prepend">
+				<source>Prepend</source>
+				<target>&#20808;&#38959;&#12395;&#36861;&#21152;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Append" resname="HDI2_Append">
+				<source>Append</source>
+				<target>&#26411;&#23614;&#12395;&#36861;&#21152;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Include" resname="HDI2_Include">
+				<source>Include in next range</source>
+				<target>&#27425;&#12398;&#31684;&#22258;&#12395;&#21547;&#12417;&#12427;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Exclude" resname="HDI2_Exclude">
+				<source>Exclude from next range</source>
+				<target>&#27425;&#12398;&#31684;&#22258;&#12363;&#12425;&#38500;&#22806;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_InsertionMode" resname="HDI2_InsertionMode">
+				<source>Insertion mode</source>
+				<target>&#25324;&#20837;&#12514;&#12540;&#12489;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RangeExtension" resname="HDI2_RangeExtension">
+				<source>Range extension</source>
+				<target>&#31684;&#22258;&#12398;&#25311;&#24373;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_InsertDocument" resname="HDI2_InsertDocument">
+				<source>Insert a document</source>
+				<target>&#12489;&#12461;&#12517;&#12513;&#12531;&#12488;&#12434;&#25324;&#20837;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_NextDocument" resname="HDI2_NextDocument">
+				<source>Next document &gt;</source>
+				<target>&#27425;&#12398;&#12489;&#12461;&#12517;&#12513;&#12531;&#12488; &gt;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_PrevDocument" resname="HDI2_PrevDocument">
+				<source>&lt; Previous document</source>
+				<target>&lt; &#21069;&#12398;&#12489;&#12461;&#12517;&#12513;&#12531;&#12488;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_SectionBreak" resname="HDI2_SectionBreak">
+				<source>Section break</source>
+				<target>&#12475;&#12463;&#12471;&#12519;&#12531;&#21306;&#20999;&#12426;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_PageBreak" resname="HDI2_PageBreak">
+				<source>Page break</source>
+				<target>&#25913;&#12506;&#12540;&#12472;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LineBreak" resname="HDI2_LineBreak">
+				<source>Line break</source>
+				<target>&#25913;&#34892;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_InsertBreak" resname="HDI2_InsertBreak">
+				<source>Insert break</source>
+				<target>&#21306;&#20999;&#12426;&#12434;&#25324;&#20837;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BreakType" resname="HDI2_BreakType">
+				<source>Break type</source>
+				<target>&#21306;&#20999;&#12426;&#12398;&#31278;&#39006;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_GetPageCount" resname="HDI2_GetPageCount">
+				<source>Get page count</source>
+				<target>&#12506;&#12540;&#12472;&#25968;&#12434;&#21462;&#24471;</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
