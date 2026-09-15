@@ -1,0 +1,23 @@
+/* Cross-platform dark mode support. Custom-drawn text/group box labels have
+   no explicit stroke set in form.4DForm, so without this rule they fall back
+   to 4D's internal default foreground colour instead of adapting to the
+   active light/dark colour scheme. */
+text, groupBox {
+	stroke: automatic;
+}
+
+/* Branded alert colour used by the HDI splash's "sorry" messages. Moved out
+   of form.4DForm (where a hardcoded stroke would win over CSS on
+   specificity) so it can have a distinct, more readable tint per colour
+   scheme instead of a single fixed hex value. */
+@media (prefers-color-scheme: light) {
+	.hdi-alert {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-alert {
+		stroke: #FF7A40;
+	}
+}

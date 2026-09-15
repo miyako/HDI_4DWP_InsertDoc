@@ -1,8 +1,10 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // load descriptions
 
 ARRAY TEXT:C222(TabControl; 0)
 ARRAY OBJECT:C1221(TextTabControl; 0)
+
+var $json : Collection
 
 If (Get database localization:C1009(Current localization:K5:22)="ja")
 	$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("init_Table-ja.json").getText(); Is collection:K8:32)
@@ -19,14 +21,13 @@ COLLECTION TO ARRAY:C1562($json; TabControl; "Title"; TextTabControl; "Text")
 //SELECTION TO ARRAY([init_Table]Text; TextTabControl)
 //UNLOAD RECORD([init_Table])
 
-TabControl:=0
 Var1:=OB Copy:C1225(TextTabControl{1})
 Var2:=OB Copy:C1225(TextTabControl{2})
 Var3:=OB Copy:C1225(TextTabControl{3})
 Var4:=OB Copy:C1225(TextTabControl{4})
 Var5:=OB Copy:C1225(TextTabControl{5})
 
-C_LONGINT:C283($platform)
+var $platform : Integer
 _O_PLATFORM PROPERTIES:C365($platform)
 
 If ($platform=Windows:K25:3)
@@ -36,7 +37,7 @@ End if
 
 
 
-C_TEXT:C284($path)
+var $path : Text
 $path:=Get 4D folder:C485(Current resources folder:K5:16)+"doc.4wp"
 wpDoc1:=WP Import document:C1318($path)
 wpDoc2:=WP New:C1317

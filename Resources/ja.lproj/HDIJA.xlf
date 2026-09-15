@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/Forms/HDI/form.4DForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI_TxtSorry1" resname="HDI_TxtSorry1">
+				<source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+				<target>&#12371;&#12398;&#12496;&#12540;&#12472;&#12519;&#12531;&#12391;&#12399;&#12371;&#12398;HDI&#12434;&#12487;&#12470;&#12452;&#12531;&#12514;&#12540;&#12489;&#12391;&#38283;&#12363;&#12394;&#12356;&#12391;&#12367;&#12384;&#12373;&#12356;&#12290;&#38283;&#12367;&#12392;&#12289;&#27231;&#33021;&#19981;&#36275;&#12398;&#12383;&#12417;&#12501;&#12457;&#12540;&#12512;&#12420;&#12513;&#12477;&#12483;&#12489;&#12364;&#22793;&#26356;&#12055;&#12428;&#12427;&#21487;&#33021;&#24615;&#12364;&#12354;&#12426;&#12414;&#12377;&#12290;</target>
+			</trans-unit>
+			<trans-unit id="HDI_TxtInfo1" resname="HDI_TxtInfo1">
+				<source>How Do I...</source>
+				<target>&#12495;&#12454;&#12539;&#12489;&#12454;&#12539;&#12450;&#12452;...</target>
+			</trans-unit>
+			<trans-unit id="HDI_TxtInfo2" resname="HDI_TxtInfo2">
+				<source>&#8230; manipulate 4D Write Pro documents with the latest commands?</source>
+				<target>&#8230;&#26368;&#26032;&#12398;&#12467;&#12510;&#12531;&#12489;&#12391;4D Write Pro&#12489;&#12461;&#12517;&#12513;&#12531;&#12488;&#12434;&#25805;&#20316;&#12377;&#12427;&#12395;&#12399;&#65311;</target>
+			</trans-unit>
+			<trans-unit id="HDI_TxtSorry2" resname="HDI_TxtSorry2">
+				<source>Sorry, this &#8220;How do I&#8221; (HDI) &#13;example must be used with&#13;a newer version of 4D&#13;(v16 {R2} and above).</source>
+				<target>&#30003;&#12375;&#35379;&#12372;&#12374;&#12356;&#12414;&#12379;&#12435;&#12364;&#12289;&#12371;&#12398;&#12300;How do I&#12301;(HDI)&#13;&#20363;&#12399;&#26032;&#12375;&#12356;&#12496;&#12540;&#12472;&#12519;&#12531;&#12398;4D&#13;&#65288;v16 {R2}&#20197;&#38477;&#65289;&#12391;&#20351;&#29992;&#12377;&#12427;&#24517;&#35201;&#12364;&#12354;&#12426;&#12414;&#12377;&#12290;</target>
+			</trans-unit>
+			<trans-unit id="HDI_TxtVersion" resname="HDI_TxtVersion">
+				<source>4D v16 and above&#8230;</source>
+				<target>4D v16&#20197;&#38477;&#8230;</target>
+			</trans-unit>
+			<trans-unit id="HDI_BtnDemo" resname="HDI_BtnDemo">
+				<source>Demo</source>
+				<target>&#12487;&#12514;</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

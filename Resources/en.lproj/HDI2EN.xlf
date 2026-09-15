@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_Button1Text" resname="HDI2_Button1Text">
+				<source>Create document</source>
+				<target>Create document</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Text2" resname="HDI2_Text2">
+				<source>Document creation from a range</source>
+				<target>Document creation from a range</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TextDocCreated" resname="HDI2_TextDocCreated">
+				<source>Document created:</source>
+				<target>Document created:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CommonParameters" resname="HDI2_CommonParameters">
+				<source>Common parameters</source>
+				<target>Common parameters</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Replace" resname="HDI2_Replace">
+				<source>Replace</source>
+				<target>Replace</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Prepend" resname="HDI2_Prepend">
+				<source>Prepend</source>
+				<target>Prepend</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Append" resname="HDI2_Append">
+				<source>Append</source>
+				<target>Append</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Include" resname="HDI2_Include">
+				<source>Include in next range</source>
+				<target>Include in next range</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Exclude" resname="HDI2_Exclude">
+				<source>Exclude from next range</source>
+				<target>Exclude from next range</target>
+			</trans-unit>
+			<trans-unit id="HDI2_InsertionMode" resname="HDI2_InsertionMode">
+				<source>Insertion mode</source>
+				<target>Insertion mode</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RangeExtension" resname="HDI2_RangeExtension">
+				<source>Range extension</source>
+				<target>Range extension</target>
+			</trans-unit>
+			<trans-unit id="HDI2_InsertDocument" resname="HDI2_InsertDocument">
+				<source>Insert a document</source>
+				<target>Insert a document</target>
+			</trans-unit>
+			<trans-unit id="HDI2_NextDocument" resname="HDI2_NextDocument">
+				<source>Next document &gt;</source>
+				<target>Next document &gt;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_PrevDocument" resname="HDI2_PrevDocument">
+				<source>&lt; Previous document</source>
+				<target>&lt; Previous document</target>
+			</trans-unit>
+			<trans-unit id="HDI2_SectionBreak" resname="HDI2_SectionBreak">
+				<source>Section break</source>
+				<target>Section break</target>
+			</trans-unit>
+			<trans-unit id="HDI2_PageBreak" resname="HDI2_PageBreak">
+				<source>Page break</source>
+				<target>Page break</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LineBreak" resname="HDI2_LineBreak">
+				<source>Line break</source>
+				<target>Line break</target>
+			</trans-unit>
+			<trans-unit id="HDI2_InsertBreak" resname="HDI2_InsertBreak">
+				<source>Insert break</source>
+				<target>Insert break</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BreakType" resname="HDI2_BreakType">
+				<source>Break type</source>
+				<target>Break type</target>
+			</trans-unit>
+			<trans-unit id="HDI2_GetPageCount" resname="HDI2_GetPageCount">
+				<source>Get page count</source>
+				<target>Get page count</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
