@@ -21,6 +21,15 @@ COLLECTION TO ARRAY:C1562($json; TabControl; "Title"; TextTabControl; "Text")
 //SELECTION TO ARRAY([init_Table]Text; TextTabControl)
 //UNLOAD RECORD([init_Table])
 
+If (ds:C1482.Countries.getCount()=0)
+	
+	$path:=File:C1566("/RESOURCES/Countries.4ie").platformPath
+	$project:=File:C1566("/RESOURCES/Countries.4si").getText()
+	
+	IMPORT DATA:C665($path; $project)
+	
+End if 
+
 Var1:=OB Copy:C1225(TextTabControl{1})
 Var2:=OB Copy:C1225(TextTabControl{2})
 Var3:=OB Copy:C1225(TextTabControl{3})
